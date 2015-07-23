@@ -14,3 +14,4 @@ gem 'guard'#,          '~> 2.10.1'
 gem 'guard-bundler'#,  '~> 2.0.0'
 gem 'guard-rspec'#,    '~> 4.2.0'
 gem 'coveralls', require: false
+gem "phony", git: "https://github.com/netMedi/phony", branch: "master" # Get this from our repo, to use the version with the ugly Denmark hack

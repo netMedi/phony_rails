@@ -1,10 +1,16 @@
+GIT
+  remote: https://github.com/netMedi/phony
+  revision: 303814dfcc9f10f21fbaa8ec797d239e3aef20a1
+  branch: master
+  specs:
+    phony (2.14.10)
+
 PATH
   remote: .
   specs:
     phony_rails (0.12.9)
       activesupport (>= 3.0)
       countries (~> 0.11, >= 0.11.5)
-      phony (~> 2.12)
 
 GEM
   remote: https://rubygems.org/
@@ -89,7 +95,6 @@ GEM
       shellany (~> 0.0)
     optionable (0.2.0)
     origin (2.1.1)
-    phony (2.14.7)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -145,7 +150,11 @@ DEPENDENCIES
   guard-bundler
   guard-rspec
   mongoid (>= 3.0)
+  phony!
   phony_rails!
   rake
   rspec
   sqlite3
+
+BUNDLED WITH
+   1.10.5
