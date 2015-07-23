@@ -46,6 +46,7 @@ describe PhonyRails do
         it "should phony_format" do
           expect("101234123".phony_formatted(:normalize => :NL)).to eql('010 123 4123')
           expect("101234123".phony_formatted(:normalize => :NL, :format => :international)).to eql('+31 10 123 4123')
+          expect("04575700834".phony_formatted(:normalize => :FI, :format => :international)).to eql('+358 45 757 00 834')
         end
 
         it "should not change original String" do
